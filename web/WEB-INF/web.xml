@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee          http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>Person</servlet-name>
+        <servlet-class>raka.teja.servlet.person.PersonServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Person</servlet-name>
+        <url-pattern>/person.jspa</url-pattern>
+    </servlet-mapping>
+</web-app>
