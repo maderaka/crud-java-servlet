@@ -2,16 +2,16 @@ package raka.teja.interfaces;
 
 
 import raka.teja.domain.Person;
-
+import java.util.List;
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Aplikasi web crud sederhana 
+ * menggunakan java servlet
  */
 
 /**
  *
- * @author rakateja
+ * @author I Made Raka Teja
+ * @link rakateja.wordpress.com
  */
 public interface PersonInterface {
     
@@ -23,5 +23,5 @@ public interface PersonInterface {
     
     public Person findById(int id);
     
-    public Person[] findAll();
+    public List<Person> findAll(int offset);
 }
