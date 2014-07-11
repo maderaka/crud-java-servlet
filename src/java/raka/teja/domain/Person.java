@@ -32,6 +32,7 @@ public class Person
      * @param id the id to set
      */
     public void setId(int id) {
+        System.out.println("id yang di set = "+id);
         this.id = id;
     }
 
